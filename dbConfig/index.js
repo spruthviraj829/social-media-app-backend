@@ -7,7 +7,7 @@ const dbConnection = async() =>{
             useUnifiedTopology : true,
            }).then(console.log("databse connected sucessfully"))
     }catch(error){
-           console.log("DB connect error: " , error );
+           console.log("DB connect error: " , error ); 
     }
 }
 export default dbConnection;
